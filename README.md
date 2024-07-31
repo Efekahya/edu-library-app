@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Edu Library App
 
-## Getting Started
+Welcome to the Edu Library App Project! This project aims to improve the user experience of the DEU library website, which was previously slow and inconvenient to use. Our goal is to provide a more intuitive, efficient, and enjoyable browsing experience for library users.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The original library [website](https://kutuphane.deu.edu.tr/) doesn't provide any information about current occupation data also had several issues, including slow loading times and cluttered interface. This project addresses these problems by redesigning the website with a focus on user experience. We have streamlined the interface, optimized the website's performance, and ensured that it is fully responsive across all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Real-Time Occupation Data:** Displays current library occupancy levels.
+- **Past Borrowing Data:** Shows statistics on how many books have been borrowed historically.
+- **Fast Loading:** Optimized for quick access to information.
+- **Responsive Design:** Fully functional on desktops, tablets, and mobile devices.
+- **User-Friendly Interface:** Intuitive navigation and layout.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Front-end:** Next.js, React, Tailwind, ApexCharts
+- **Back-end:** Node.js, Hasura
+- **Database:** PostgreSql
+- **Other:** GraphQl
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To set up the project locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+ 
+   ```sh
+   git clone https://github.com/efekahya/edu-library-app.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Navigate to the project directory:
+
+   ```sh
+   cd edu-library-app
+
+5. Install the dependencies:
+
+   ```sh
+   npm install
+
+7. Start the development server:
+
+   ```sh
+   npm run dev
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: git checkout -b feat/your-feature-name.
+3. Make your changes and commit them: git commit -m 'Add some feature'.
+4. Push to the branch: git push origin feature/your-feature-name.
+5. Open a pull request.
+6. Please ensure your code follows the project's coding standards and includes appropriate documentation.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
